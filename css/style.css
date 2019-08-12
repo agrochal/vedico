@@ -1,0 +1,157 @@
+*{
+   padding: 0;
+   margin: 0;
+   outline: 0;
+   box-sizing: border-box;
+   scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+   width:auto;
+}
+::-webkit-scrollbar-track {
+  background: #fafafa;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--dark);
+}
+
+.preload * {
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -ms-transition: none !important;
+  -o-transition: none !important;
+}
+
+:root {
+   --base: #a8daff;
+   --dark: rgba(0, 0, 0, 0.88);
+}
+
+body{
+   position: relative;
+   background-color: var(--base);
+   overflow-x: hidden;
+   height:100vh;
+   font-family: 'Lato', sans-serif;
+}
+
+header{
+   padding:15px;
+   display:flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+}
+header h1{
+   font-family: 'Farro', sans-serif;
+   font-weight:700;
+   font-size:50px;
+   color: rgba(0, 0, 0, 0.92);
+}
+
+header h2{
+   color: rgba(0, 0, 0, 0.89);
+   font-size:16px;
+}
+
+a{
+   text-decoration: none;
+}
+nav{
+   margin-top:5px;
+   text-align:center;
+}
+nav a{
+   color:var(--dark);
+   font-weight:bold;
+   font-size:19px;
+   position: relative;
+}
+
+nav a:not(:first-child){
+   margin-left:15px;
+}
+
+nav a::after{
+   content: '';
+   left: 0px;
+   bottom:-3px;
+   position: absolute;
+   width:100%;
+   height:2px;
+   background-color: var(--base);
+   transition: background-color .15s ease-in-out;
+}
+nav a:hover::after{
+   background-color: var(--dark);
+}
+
+
+.copybox {
+   white-space: nowrap;
+   color: var(--dark);
+   margin-bottom: 5px;
+   border-radius: 2px;
+   padding: 13px;
+   background-color: #82caff;
+   width: 95%;
+   overflow-y: hidden;
+   overflow-x: auto;
+}
+
+.copybtn {
+   font: inherit;
+   width: fit-content;
+   font-size: 17px;
+   border-radius: 2px;
+   border: 2px var(--dark) solid;
+   margin-bottom: 20px;
+   color: #fafafa;
+   background-color: var(--dark);
+   text-align: center;
+   padding: 6px 9px 6px 9px;
+   font-weight: 700;
+   -webkit-appearance: none;
+   transition: color .25s ease-in-out, background-color .25s ease-in-out;
+}
+
+.copybtn span:after {
+   content: 'Copy';
+}
+
+.copybtn:hover {
+   color: var(--dark);
+   background-color: var(--base);
+   cursor: pointer;
+}
+
+.copybtn:focus {
+   color: #fafafa;
+   background-color: var(--dark);
+}
+
+.copybtn:focus span:after {
+   content: 'Copied!';
+}
+
+.copybox span {
+   padding-left: 15px;
+}
+
+
+footer {
+   padding: 15px 15px 25px 15px;
+   text-align: center;
+   color: rgba(0, 0, 0, 0.91);
+}
+
+footer span {
+   font-size: 17px;
+}
+
+footer a {
+   text-decoration: underline;
+   color: rgba(0, 0, 0, 0.91);
+}
