@@ -323,6 +323,189 @@ var font = ["wordpress"];
 var el = new Icon("wordpress",svg,font);
 icons.push(el);
 
+var svg = ["adobexd","adobexd-colored"];
+var font = ["adobexd"];
+var el = new Icon("adobexd",svg,font);
+icons.push(el);
+
+var svg = ["arduino","arduino-colored"];
+var font = ["arduino"];
+var el = new Icon("arduino",svg,font);
+icons.push(el);
+
+var svg = ["behance","behance-colored"];
+var font = ["behance"];
+var el = new Icon("behance",svg,font);
+icons.push(el);
+
+var svg = ["bitbucket","bitbucket-colored"];
+var font = ["bitbucket"];
+var el = new Icon("bitbucket",svg,font);
+icons.push(el);
+
+var svg = ["cloudflare","cloudflare-colored"];
+var font = ["cloudflare"];
+var el = new Icon("cloudflare",svg,font);
+icons.push(el);
+
+var svg = ["codepen"];
+var font = ["codepen"];
+var el = new Icon("codepen",svg,font);
+icons.push(el);
+
+var svg = ["digitalocean","digitalocean-colored"];
+var font = ["digitalocean"];
+var el = new Icon("digitalocean",svg,font);
+icons.push(el);
+
+var svg = ["gitter","gitter-colored"];
+var font = ["gitter"];
+var el = new Icon("gitter",svg,font);
+icons.push(el);
+
+var svg = ["go","go-colored"];
+var font = ["go"];
+var el = new Icon("go",svg,font);
+icons.push(el);
+
+var svg = ["google","google-colored"];
+var font = ["google"];
+var el = new Icon("google",svg,font);
+icons.push(el);
+
+var svg = ["illustrator","illustrator-colored"];
+var font = ["illustrator"];
+var el = new Icon("illustrator",svg,font);
+icons.push(el);
+
+var svg = ["instagram","instagram-colored"];
+var font = ["instagram"];
+var el = new Icon("instagram",svg,font);
+icons.push(el);
+
+var svg = ["joomla","joomla-colored"];
+var font = ["joomla"];
+var el = new Icon("joomla",svg,font);
+icons.push(el);
+
+var svg = ["jsdelivr","jsdelivr-colored"];
+var font = ["jsdelivr"];
+var el = new Icon("jsdelivr",svg,font);
+icons.push(el);
+
+var svg = ["jsfiddle","jsfiddle-colored"];
+var font = ["jsfiddle"];
+var el = new Icon("jsfiddle",svg,font);
+icons.push(el);
+
+var svg = ["kaggle","kaggle-colored"];
+var font = ["kaggle"];
+var el = new Icon("kaggle",svg,font);
+icons.push(el);
+
+var svg = ["kotlin","kotlin-colored"];
+var font = ["kotlin"];
+var el = new Icon("kotlin",svg,font);
+icons.push(el);
+
+var svg = ["letsencrypt","letsencrypt-colored"];
+var font = ["letsencrypt"];
+var el = new Icon("letsencrypt",svg,font);
+icons.push(el);
+
+var svg = ["lightroomcc","lightroomcc-colored"];
+var font = ["lightroomcc"];
+var el = new Icon("lightroomcc",svg,font);
+icons.push(el);
+
+var svg = ["linkedin","linkedin-colored"];
+var font = ["linkedin"];
+var el = new Icon("linkedin",svg,font);
+icons.push(el);
+
+var svg = ["medium","medium-colored"];
+var font = ["medium"];
+var el = new Icon("medium",svg,font);
+icons.push(el);
+
+var svg = ["messenger","messenger-colored"];
+var font = ["messenger"];
+var el = new Icon("messenger",svg,font);
+icons.push(el);
+
+var svg = ["microsoft","microsoft-colored"];
+var font = ["microsoft"];
+var el = new Icon("microsoft",svg,font);
+icons.push(el);
+
+var svg = ["netlify","netlify-colored"];
+var font = ["netlify"];
+var el = new Icon("netlify",svg,font);
+icons.push(el);
+
+var svg = ["patreon","patreon-colored","patreon-colored-2"];
+var font = ["patreon"];
+var el = new Icon("patreon",svg,font);
+icons.push(el);
+
+var svg = ["photoshop","photoshop-colored"];
+var font = ["photoshop"];
+var el = new Icon("photoshop",svg,font);
+icons.push(el);
+
+var svg = ["raspberrypi","raspberrypi-colored"];
+var font = ["raspberrypi"];
+var el = new Icon("raspberrypi",svg,font);
+icons.push(el);
+
+var svg = ["reddit","reddit-2"];
+var font = ["reddit","reddit-2"];
+var el = new Icon("reddit",svg,font);
+icons.push(el);
+
+var svg = ["soundcloud"];
+var font = ["soundcloud"];
+var el = new Icon("soundcloud",svg,font);
+icons.push(el);
+
+var svg = ["sourceforge","sourceforge-colored"];
+var font = ["sourceforge"];
+var el = new Icon("sourceforge",svg,font);
+icons.push(el);
+
+var svg = ["spotify","spotify-colored"];
+var font = ["spotify"];
+var el = new Icon("spotify",svg,font);
+icons.push(el);
+
+var svg = ["stackoverflow","stackoverflow-colored"];
+var font = ["stackoverflow"];
+var el = new Icon("stackoverflow",svg,font);
+icons.push(el);
+
+var svg = ["telegram","telegram-og"];
+var font = ["telegram"];
+var el = new Icon("telegram",svg,font);
+icons.push(el);
+
+var svg = ["vscode","vscode-colored"];
+var font = ["vscode"];
+var el = new Icon("vscode",svg,font);
+icons.push(el);
+
+var svg = ["whatsapp","whatsapp-colored"];
+var font = ["whatsapp"];
+var el = new Icon("whatsapp",svg,font);
+icons.push(el);
+
+var svg = ["youtube","youtube-colored"];
+var font = ["youtube"];
+var el = new Icon("youtube",svg,font);
+icons.push(el);
+
+
+
+
 function compare(a, b) {
   const iconA = a.name.toUpperCase();
   const iconB = b.name.toUpperCase();
