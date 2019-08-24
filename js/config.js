@@ -29,7 +29,7 @@ function display(text) {
 
 function showVersion(type, obj, id) {
    if (type == "svg") {
-      scb.textContent = '<img src="https://cdn.jsdelivr.net/gh/agrochal/vedico/svg/' + obj.svg[id] + '.svg">';
+      scb.textContent = '<img src="https://cdn.jsdelivr.net/gh/vedico-org/vedico/svg/' + obj.svg[id] + '.svg">';
       if(svg_list.getElementsByClassName("selected")[0]!=undefined){
          svg_list.getElementsByClassName("selected")[0].classList = "version";
       }
@@ -67,7 +67,7 @@ function getDetails(obj) {
       var el = document.createElement("div");
       el.className = "version";
       var img = document.createElement("img");
-      img.src = "https://cdn.jsdelivr.net/gh/agrochal/vedico/svg/" + obj.svg[y] + ".svg";
+      img.src = "https://cdn.jsdelivr.net/gh/vedico-org/vedico/svg/" + obj.svg[y] + ".svg";
       el.appendChild(img);
       el.addEventListener("click", function() {
          showVersion("svg", obj, y);
