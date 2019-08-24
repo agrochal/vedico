@@ -373,9 +373,9 @@ var font = ["google"];
 var el = new Icon("google",svg,font);
 icons.push(el);
 
-var svg = ["illustrator","illustrator-colored"];
-var font = ["illustrator"];
-var el = new Icon("illustrator",svg,font);
+var svg = ["adobeillustrator","adobeillustrator-colored"];
+var font = ["adobeillustrator"];
+var el = new Icon("adobeillustrator",svg,font);
 icons.push(el);
 
 var svg = ["instagram","instagram-colored"];
@@ -413,9 +413,9 @@ var font = ["letsencrypt"];
 var el = new Icon("letsencrypt",svg,font);
 icons.push(el);
 
-var svg = ["lightroomcc","lightroomcc-colored"];
-var font = ["lightroomcc"];
-var el = new Icon("lightroomcc",svg,font);
+var svg = ["adobelightroom","adobelightroom-colored"];
+var font = ["adobelightroom"];
+var el = new Icon("adobelightroom",svg,font);
 icons.push(el);
 
 var svg = ["linkedin","linkedin-colored"];
@@ -448,9 +448,9 @@ var font = ["patreon"];
 var el = new Icon("patreon",svg,font);
 icons.push(el);
 
-var svg = ["photoshop","photoshop-colored"];
-var font = ["photoshop"];
-var el = new Icon("photoshop",svg,font);
+var svg = ["adobephotoshop","adobephotoshop-colored"];
+var font = ["adobephotoshop"];
+var el = new Icon("adobephotoshop",svg,font);
 icons.push(el);
 
 var svg = ["raspberrypi","raspberrypi-colored"];
@@ -503,7 +503,175 @@ var font = ["youtube"];
 var el = new Icon("youtube",svg,font);
 icons.push(el);
 
+var svg = ["adobeaftereffects","adobeaftereffects-colored"];
+var font = ["adobeaftereffects"];
+var el = new Icon("adobeaftereffects",svg,font);
+icons.push(el);
 
+var svg = ["adobedreamweaver","adobedreamweaver-colored"];
+var font = ["adobedreamweaver"];
+var el = new Icon("adobedreamweaver",svg,font);
+icons.push(el);
+
+var svg = ["adobeindesign","adobeindesign-colored"];
+var font = ["adobeindesign"];
+var el = new Icon("adobeindesign",svg,font);
+icons.push(el);
+
+var svg = ["adobepremierepro","adobepremierepro-colored"];
+var font = ["adobepremierepro"];
+var el = new Icon("adobepremierepro",svg,font);
+icons.push(el);
+
+var svg = ["archlinux","archlinux-colored"];
+var font = ["archlinux"];
+var el = new Icon("archlinux",svg,font);
+icons.push(el);
+
+var svg = ["azuredevops","azuredevops-colored"];
+var font = ["azuredevops"];
+var el = new Icon("azuredevops",svg,font);
+icons.push(el);
+
+var svg = ["azurepipelines","azurepipelines-colored"];
+var font = ["azurepipelines"];
+var el = new Icon("azurepipelines",svg,font);
+icons.push(el);
+
+var svg = ["babel","babel-colored"];
+var font = ["babel"];
+var el = new Icon("babel",svg,font);
+icons.push(el);
+
+var svg = ["buymeacoffee","buymeacoffee-colored"];
+var font = ["buymeacoffee"];
+var el = new Icon("buymeacoffee",svg,font);
+icons.push(el);
+
+var svg = ["circleci","circleci-colored"];
+var font = ["circleci"];
+var el = new Icon("circleci",svg,font);
+icons.push(el);
+
+var svg = ["coffeescript","coffeescript-colored"];
+var font = ["coffeescript"];
+var el = new Icon("coffeescript",svg,font);
+icons.push(el);
+
+var svg = ["creativecommons"];
+var font = ["creativecommons"];
+var el = new Icon("creativecommons",svg,font);
+icons.push(el);
+
+var svg = ["fedora","fedora-colored"];
+var font = ["fedora"];
+var el = new Icon("fedora",svg,font);
+icons.push(el);
+
+var svg = ["fitbit","fitbit-colored"];
+var font = ["fitbit"];
+var el = new Icon("fitbit",svg,font);
+icons.push(el);
+
+var svg = ["googleallo","googleallo-colored"];
+var font = ["googleallo"];
+var el = new Icon("googleallo",svg,font);
+icons.push(el);
+
+var svg = ["json"];
+var font = ["json"];
+var el = new Icon("json",svg,font);
+icons.push(el);
+
+var svg = ["kickstarter","kickstarter-colored"];
+var font = ["kickstarter"];
+var el = new Icon("kickstarter",svg,font);
+icons.push(el);
+
+var svg = ["linux"];
+var font = ["linux"];
+var el = new Icon("linux",svg,font);
+icons.push(el);
+
+var svg = ["linuxmint","linuxmint-colored"];
+var font = ["linuxmint"];
+var el = new Icon("linuxmint",svg,font);
+icons.push(el);
+
+var svg = ["materialdesign","materialdesign-colored"];
+var font = ["materialdesign"];
+var el = new Icon("materialdesign",svg,font);
+icons.push(el);
+
+var svg = ["microsoftaccess","microsoftaccess-colored"];
+var font = ["microsoftaccess"];
+var el = new Icon("microsoftaccess",svg,font);
+icons.push(el);
+
+var svg = ["microsoftazure","microsoftazure-colored"];
+var font = ["microsoftazure"];
+var el = new Icon("microsoftazure",svg,font);
+icons.push(el);
+
+var svg = ["microsoftexcel","microsoftexcel-colored"];
+var font = ["microsoftexcel"];
+var el = new Icon("microsoftexcel",svg,font);
+icons.push(el);
+
+var svg = ["microsoftonedrive","microsoftonedrive-colored"];
+var font = ["microsoftonedrive"];
+var el = new Icon("microsoftonedrive",svg,font);
+icons.push(el);
+
+var svg = ["microsoftonenote","microsoftonenote-colored"];
+var font = ["microsoftonenote"];
+var el = new Icon("microsoftonenote",svg,font);
+icons.push(el);
+
+var svg = ["microsoftoutlook","microsoftoutlook-colored"];
+var font = ["microsoftoutlook"];
+var el = new Icon("microsoftoutlook",svg,font);
+icons.push(el);
+
+var svg = ["microsoftpowerpoint","microsoftpowerpoint-colored"];
+var font = ["microsoftpowerpoint"];
+var el = new Icon("microsoftpowerpoint",svg,font);
+icons.push(el);
+
+var svg = ["microsoftword","microsoftword-colored"];
+var font = ["microsoftword"];
+var el = new Icon("microsoftword",svg,font);
+icons.push(el);
+
+var svg = ["opensuse","opensuse-colored"];
+var font = ["opensuse"];
+var el = new Icon("opensuse",svg,font);
+icons.push(el);
+
+var svg = ["powershell","powershell-colored"];
+var font = ["powershell"];
+var el = new Icon("powershell",svg,font);
+icons.push(el);
+
+var svg = ["scala","scala-colored"];
+var font = ["scala"];
+var el = new Icon("scala",svg,font);
+icons.push(el);
+
+var svg = ["ubuntu","ubuntu-colored"];
+var font = ["ubuntu"];
+var el = new Icon("ubuntu",svg,font);
+icons.push(el);
+
+var svg = ["unity"];
+var font = ["unity"];
+var el = new Icon("unity",svg,font);
+icons.push(el);
+
+var svg = ["unrealengine","unrealengine-colored"];
+var font = ["unrealengine"];
+var el = new Icon("unrealengine",svg,font);
+icons.push(el);
 
 
 function compare(a, b) {
