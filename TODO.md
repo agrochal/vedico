@@ -1,8 +1,15 @@
 # To Do
 
+## Outdated icons
+
+- facebook
+- fedora
+- messenger
+- drupal
+- sourceforge
+
 ## New icons
 
-### Priority
 - git compare
 - git branch
 - git commit
@@ -10,10 +17,6 @@
 - git merge
 - trello
 - database
-
-
-
-### Others
 - app store
 - opensource
 - gnu
@@ -34,5 +37,16 @@
 - snapchat
 - tor
 - rust
+- mail
 
 ## New versions
+
+- aws
+- swift
+- nginx
+- netlify
+- laravel
+- go
+- django
+- coffeescript
+- arch linux
